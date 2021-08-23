@@ -1,4 +1,8 @@
 {
+  "name": "ramonarno/craft-starter",
+  "description": "A starter Craft installation by Arno Ramon.",
+  "version": "1.0.0",
+  "type": "project",
   "require": {
     "craftcms/cms": "^3.6.4",
     "vlucas/phpdotenv": "^3.4.0"
@@ -13,10 +17,7 @@
   },
   "config": {
     "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.2.5"
-    }
+    "optimize-autoloader": true
   },
   "scripts": {
     "post-root-package-install": [
