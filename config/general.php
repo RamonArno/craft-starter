@@ -32,6 +32,13 @@ return [
         'disallowRobots' => !$isProd,
         // Whether to save the project config out to config/project.yaml
         'useProjectConfigFile' => true,
+        // fuzzy search
+        'defaultSearchTermOptions' => array(
+            'subLeft' => true,
+            'subRight' => true,
+        ),
+        // remove index.php from auto-generated URLs
+        'omitScriptNameInUrls' => true,
     ],
 
     // Dev environment settings
