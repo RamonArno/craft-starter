@@ -1,0 +1,22 @@
+dateModified: 1629746231
+email:
+  fromEmail: ramonarno@hotmail.com
+  fromName: Ramon
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    5411a96c-a474-4e54-8945-e7abe62335ad: Common # Common
+    bc68417f-963a-412c-9b51-b8a77338841f: Ramon # Ramon
+    c0c8a813-7689-4112-8e60-cf3f50b62467: Ramon # Ramon
+system:
+  edition: solo
+  live: true
+  name: Ramon
+  schemaVersion: 3.7.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
